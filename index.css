@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/* General specifics */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-li, a, button {
+li, a, h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #edf0f1;
+  color: black;
   text-decoration: none;
 }
+
+/* nav bar */
 
 header {
   display: flex;
@@ -21,23 +25,18 @@ header {
   padding: 30x 10%;
 }
 
-
-.nav-menu {
+#nav-menu {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  padding: 15px 20px;
 }
-
-
-
-
-
 
 .btn-ghost {
   color: #4A4A4A;
   border: 1px solid #4A4A4A;
-  padding: 8px 24px;
-  margin: 5px 5px;
+  padding: 10px 25px;
+  margin: 10px 20px;
   border-radius: 50px;
   font-weight: lighter;
   opacity: 0.6;
@@ -46,5 +45,34 @@ header {
 
 .btn-ghost:hover {
   opacity: 1;
+  background-color: lightblue;
+  font-weight: bold;
 }
+
+/* Hero banner */
+
+.hero-banner {
+   align-content: center;
+}
+
+.hero-text h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#main-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding: 50px 50px;
+  border-radius: 50%;
+  height: 400px;
+  overflow: hidden;
+  opacity: 0.8;
+  border-color: lightblue;
+
+}
+
+
 
