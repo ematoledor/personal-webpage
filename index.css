@@ -57,7 +57,7 @@ header {
 
 .hero-text h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 #main-img {
@@ -72,6 +72,10 @@ header {
   opacity: 0.8;
   border-color: lightblue;
 
+}
+
+li {
+  position: ;
 }
 
 
