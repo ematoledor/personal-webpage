@@ -16,6 +16,12 @@ li, a, h1 {
   text-decoration: none;
 }
 
+  .main-container { 
+    width: 90vw;
+    margin: auto;
+    height: 100vh;
+}
+
 /* nav bar */
 
 header {
@@ -51,13 +57,23 @@ header {
 
 /* Hero banner */
 
-.hero-banner {
-   align-content: center;
-}
 
 .hero-text h1 {
   text-align: center;
   font-size: 50px;
+  
+}
+
+#rotation {
+  grid-row-start: 2;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #main-img {
@@ -65,7 +81,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
-  padding: 50px 50px;
+  padding: 80px 50px;
   border-radius: 50%;
   height: 400px;
   overflow: hidden;
