@@ -1,0 +1,67 @@
+/* Hero banner */
+
+
+.greeting {
+
+  font-size: 48px;
+  position: absolute;
+  left: 0px;
+  width: 50vw;
+  
+}
+
+.rotation {
+  position: absolute;
+  text-align: start;
+  right: 0px;
+  width: 50vw;
+  font-size: 44px;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 60px;
+  padding: 10px;
+}
+/* Subheader */
+
+.subheader {
+  width: 100%;
+  padding: 30px;
+}
+
+.subheader h3 {
+  font-size: 1rem;
+  text-justify: center;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* Links */
+
+.projects-link {
+  font-size: 1.8rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  padding: 25px;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+
+.projects-link:hover {
+  border: 2px solid black;
+  opacity: 1;
+}
+
+.projects-link:active {
+  border: 2px solid black;  
+  opacity: 1;
+}
