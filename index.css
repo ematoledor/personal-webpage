@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /* navbar */
-@import "assets/stylesheets/_navbar.css";
+@import "./assets/stylesheets/_navbar.css";
 /* headers */
-@import "assets/stylesheets/_headers.css";
+@import "./assets/stylesheets/_headers.css";
 /* Projects */
-@import "assets/stylesheets/_projects.css";
+@import "./assets/stylesheets/_projects.css";
 
 /* General specifics */
 
