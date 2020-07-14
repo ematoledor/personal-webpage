@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-/* navbar */
-@import url(assets/stylesheets/_navbar.css);
-/* headers */
-@import url(assets/stylesheets/_headers.css);
-/* Projects */
-@import url(assets/stylesheets/_projects.css);
+
+
 
 /* General specifics */
 
@@ -85,4 +81,239 @@ h1 {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+
+/* nav bar */
+/* @import "/index.css"; */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30x 10%;
+}
+
+#nav-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.btn-ghost {
+  color: black;
+  border: 2px solid black;
+  padding: 10px 40px;
+  margin: 2 0px 20px;
+  border-radius: 50px;
+  font-weight: light;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  font-weight: bolder;
+}
+
+.btn-ghost:active {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* Hero banner */
+.greeting {
+
+  font-size: 48px;
+  position: absolute;
+  left: 0px;
+  width: 50vw;
+  
+}
+
+.rotation {
+  position: absolute;
+  text-align: start;
+  right: 0px;
+  width: 50vw;
+  font-size: 44px;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 60px;
+  padding: 10px;
+}
+/* Subheader */
+
+.subheader {
+  width: 100%;
+  padding: 30px;
+}
+
+.subheader h3 {
+  font-size: 1rem;
+  text-justify: center;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* Links */
+
+.projects-link {
+  font-size: 1.8rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  padding: 25px;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+
+.projects-link:hover {
+  border: 2px solid black;
+  opacity: 1;
+}
+
+.projects-link:active {
+  border: 2px solid black;  
+  opacity: 1;
+}
+
+/* Projects */
+
+.dev {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-count: 2;
+  column-gap: 5px;
+  column-width: 50vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.recent-card {
+  background-image: cover;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  column-count: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.eatsy-card {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+  url(assets/images/sharefood.jpeg);
+
+}
+
+.toolbox-card {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+  url(assets/images/toolbox-card.jpeg);
+
+}
+
+.toolbox-card h2 {
+  padding: 20px;
+  font-size: 3em;
+}
+
+
+.recent-card img {
+  max-width: 100%;
+  max-height: 70%; 
+  padding: 20px;
+}
+
+.recent-card p {
+  padding: 15px;
+}
+
+.recent-link {
+  font-size: 15px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50px;
+  margin: 10px;
+  text-justify: center;
+  padding: 25px;
+  opacity: 0.8;
+}
+
+.recent-link:hover {
+  opacity: 1;
+}
+
+.recent-link:active {
+  opacity: 1;
+  border: none;
+}
+
+/* Links */
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Startups */
+
+.startups {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  column-gap: 5px;
+  column-width: 33.33%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: row;
+  column-count: 3;
+  font-size: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.dock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.sintax {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tolar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
 }
