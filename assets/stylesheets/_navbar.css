@@ -1,5 +1,5 @@
 /* nav bar */
-@import "/index.css";
+/* @import "/index.css"; */
 header {
   display: flex;
   justify-content: space-between;

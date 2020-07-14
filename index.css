@@ -25,9 +25,9 @@ h1 {
 }
 
 .main-container { 
-    width: 100vw;
-    margin: 0;
-    height: auto;
+  width: 100vw;
+  margin: 0;
+  height: auto;
 }
 /* Responsive */
 @media(max-width: 1200px) {
@@ -86,5 +86,3 @@ h1 {
   flex-basis: 100%;
   flex: 1;
 }
-
-
