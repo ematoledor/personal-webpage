@@ -1,0 +1,35 @@
+/* nav bar */
+@import "/index.css";
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30x 10%;
+}
+
+#nav-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.btn-ghost {
+  color: black;
+  border: 2px solid black;
+  padding: 10px 40px;
+  margin: 2 0px 20px;
+  border-radius: 50px;
+  font-weight: light;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  font-weight: bolder;
+}
+
+.btn-ghost:active {
+  font-weight: bolder;
+  text-decoration: underline;
+}

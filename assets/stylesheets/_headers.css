@@ -1,0 +1,44 @@
+/* Hero banner */
+
+
+.greeting {
+
+  font-size: 48px;
+  position: absolute;
+  left: 0px;
+  width: 50vw;
+  
+}
+
+.rotation {
+  position: absolute;
+  text-align: start;
+  right: 0px;
+  width: 50vw;
+  font-size: 44px;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 60px;
+  padding: 10px;
+}
+/* Subheader */
+
+.subheader {
+  width: 100%;
+  padding: 30px;
+}
+
+.subheader h3 {
+  font-size: 1rem;
+  text-justify: center;
+  text-align: center;
+  font-weight: 300;
+}
