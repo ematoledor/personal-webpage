@@ -1,0 +1,132 @@
+/* Projects */
+
+.dev {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-count: 2;
+  column-gap: 5px;
+  column-width: 50vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.recent-card {
+  background-image: cover;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  column-count: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.eatsy-card {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+  url(../images/sharefood.jpeg);
+
+}
+
+.toolbox-card {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+  url(../images/toolbox-card.jpeg);
+
+}
+
+.toolbox-card h2 {
+  padding: 20px;
+  font-size: 3em;
+}
+
+
+.recent-card img {
+  max-width: 100%;
+  max-height: 70%; 
+  padding: 20px;
+}
+
+.recent-card p {
+  padding: 15px;
+}
+
+.recent-link {
+  font-size: 15px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50px;
+  margin: 10px;
+  text-justify: center;
+  padding: 25px;
+  opacity: 0.8;
+}
+
+.recent-link:hover {
+  opacity: 1;
+}
+
+.recent-link:active {
+  opacity: 1;
+  border: none;
+}
+
+/* Links */
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Startups */
+
+.startups {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  column-gap: 5px;
+  column-width: 33.33%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: row;
+  column-count: 3;
+  font-size: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.dock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.sintax {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tolar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}

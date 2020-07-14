@@ -3,6 +3,8 @@
 @import "assets/stylesheets/_navbar.css";
 /* headers */
 @import "assets/stylesheets/_headers.css";
+/* Projects */
+@import "assets/stylesheets/_projects.css";
 
 /* General specifics */
 
@@ -22,10 +24,10 @@ h1 {
   padding: 20px 0 0 0;
 }
 
-  .main-container { 
+.main-container { 
     width: 100vw;
     margin: 0;
-    height: 100vh;
+    height: auto;
 }
 /* Responsive */
 @media(max-width: 1200px) {
@@ -56,120 +58,33 @@ h1 {
   .dev {column-width: 100%;}
 }
 
-
+/* 
 #main-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 200px;
   border-radius: 50%;
   height: 400px;
   overflow: hidden;
   opacity: 1;
   border: 1px solid black;
 
-}
+} */
 
-/* Links */
-
-.link-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.projects-link {
-  font-size: 1.8rem;
-  text-align: center;
-  color: black;
-  margin: auto;
-  padding: 25px;
-  border-radius: 50px;
-  opacity: 0.8;
-  margin: 20px;
-}
-
-
-.projects-link:hover {
-  border: 2px solid black;
-  opacity: 1;
-}
-
-.projects-link:active {
-  border: 2px solid black;  
-  opacity: 1;
-}
-
-/* Projects */
-
-.dev {
-  width: 100vw;
-  height: 70vh;
+/* row and column */
+.row {
   display: flex;
   flex-direction: row;
-  column-count: 2;
-  column-gap: 5px;
-  column-width: 50vw;
-  justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
 }
 
-.recent-card {
-  background-image: cover;
-  opacity: 0.8;
+.column {
   display: flex;
   flex-direction: column;
-  column-count: auto;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  text-align: center;
-  font-size: 10px;
-  color: white;
+  flex-basis: 100%;
+  flex: 1;
 }
 
-.eatsy-card {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-  url(assets/images/sharefood.jpeg);
-}
 
-.toolbox-card {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-  url(assets/images/toolbox-card.jpeg);
-  font-size: 2em;
-}
-
-.toolbox-card h2 {
-  padding: 20px;
-  font-size: inherit;
-}
-
-.recent-card img {
-  max-width: 100%;
-  max-height: 100%; 
-  padding: 20px;
-}
-
-.recent-card p {
-  padding: 15px;
-  font-size: 15px;
-  font-style: italic;
-}
-
-.recent-link {
-  font-size: 15px;
-  color: white;
-  border: 3px solid white;
-  border-radius: 30px;
-  margin: 10px;
-  text-justify: center;
-}
-
-.recent-link:hover {
-  opacity: 0.5;
-}
-
-.recent-link:active {
-  opacity: 0.5;
-}
