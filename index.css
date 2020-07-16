@@ -38,7 +38,7 @@ h1 {
 }
 
 @media(max-width: 768px) {
-  .main-container { width: auto; height: 100vh;}
+  .main-container { width: auto; height: auto;}
   .hero-text h1 { font-size: 30px; }
   .recent-card { max-width: 100vw; }
   .eatsy-card { width: 100vw; }
@@ -47,10 +47,11 @@ h1 {
 }
 
 @media(max-width: 480px) {
-  .main-container { width: auto; height: 100vh;}
+  .main-container { width: auto; height: auto;}
   .hero-text h1 { font-size: 25px; }
   .recent-card { max-width: auto; }
   .dev {column-width: 100%;}
+  .contact {width: 100vw; height: auto;}
   
 }
 
@@ -333,6 +334,7 @@ header {
   text-align: center;
   align-items: center;
   left: 0;
+  position: sticky;
 }
 
 .contact-form {
@@ -341,7 +343,4 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  
-  
-
 }
