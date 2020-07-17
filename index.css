@@ -361,26 +361,63 @@ h1 {
   width: auto;
   padding: 20px ;
   margin: 10;
+  height: 100vh;
 }
 
 .contact {
-  width: 50%;
+  width: 100%;
+  background-color:black;
+  opacity: 0.8;
   height: auto;  
   padding: 20px ;
-  margin: 10;
-  white-space: pre-wrap;
+  margin: 10px;
   text-align: center;
   align-items: center;
-  left: 0;
-  height: 100vh;
-  border: 2px solid black;
   border-radius: 20px;
 }
 
 .contact-form {
-  font-size: 1.5rem;
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  opacity: initial;
+  padding: 20px;
+}
+
+label {
+  font-size: auto;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+button {
+  color: black;
+  background-color: white;
+  padding: 10px 40px;
+  margin: 20px 20px;
+  border-radius: 50px;
+  font-weight: lighter;
+  transition: opacity 0.9s ease;
+  width: 150px;
+  margin-top: 30px
+}
+
+button:hover {
+  font-weight: bolder;
+}
+
+button:active {
+  font-weight: bolder;
+  text-decoration: underline;
 }
