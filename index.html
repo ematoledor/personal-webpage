@@ -14,7 +14,7 @@
 			<a class="btn-ghost" href="#contact">Contact</a>
 		</nav>
 	</header>
-	<div class="main-container">
+	<div id="headers" class="main-container">
 		<div class="hero-text row">
 			<script type="text/javascript" src="index.js"></script>
 			<div class="greeting-position column">
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		<div class="subheader">
-			<h3 class="">I design and build functional and user-friendly websites and web applications. <em>Exactly how you need them.</em></h3>
+			<h3 class="">I design and build functional and user-friendly web applications. <em>Exactly how you need them.</em></h3>
 		</div>
 		<div class="link-container">
 			<a class="projects-link" href="#projects">Check some recent work</a>
@@ -42,8 +42,12 @@
 	</div>
 	<div id="projects" class="main-container">
 		<div class="dev">
+			<div>
+				<h4>These are my latest finished projects.</h4>
+			</div>
 			<div class="recent-card eatsy-card">
 				<img src="/assets/images/logo-eatsy.png" alt="#ShareFood">
+				<h5>A platform that makes eating simple.</h5>
 				<p>
 					Tech: 
 					<br>
@@ -67,7 +71,7 @@
 				<p>
 					Tech: 
 					<br>
-					Ruby/RoR - Postgresql - Geocoding - Heroku - Html - Css/Scss
+					Ruby/RoR - Postgresql - Geocoding - Heroku - Bootstrap - Css/Scss
 				</p>
 				<p>
 					Role:
@@ -84,32 +88,46 @@
 		<div class="startups">
 			<div class="row">
 				<div class="column">
-					<h3>
+					<h3 class="startup-header">
 						Startup Projects
 					</h3>
-					<p>This are the businesses and startups I've been a part of.</p>
+					<p class="startup-subheader">These are the businesses and startups I've been a part of. Let me know if you want to know some more.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="column sintax">
-					<img style="width: 250px; height: 80px;"src="assets/images/logo-sintax.png" alt="">
-					<p>No cost digital legal counsel.</p>
+					<img style="width: 250px; height: auto;"src="assets/images/logo-sintax.png" alt="">
 				</div>
 				<div class="column dock">
-					<img style="width: 250px; height: 180px;"src="assets/images/Logo-Dock.jpg" alt="">
-					<p>Health device for simple daily monitoring. Reward app for healthy awareness.</p>
+					<img style="width: 250px; height: auto;"src="assets/images/Logo-Dock.jpg" alt="">
 				</div>
 				<div class="column tolar">
-					<img style="width: 300px; height: 150px;" src="assets\/images/logo-tolar.png" alt="">
-					<p>Renewable energy industy consultant and environmental friendly product commerce.</p>
+					<img style="width: 250px; height: auto;" src="assets\/images/logo-tolar.png" alt="">
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="contact" class="main-container">
 		<div class="row">
+			<div class="column contact">
+				<form class="contact-form" action="https://getform.io/f/5e3c2458-1f2f-4383-b1fd-b70e1e906a13" method="POST" enctype="multipart/form-data">
+
+					<label for="name">How should I call you?</label>
+					<input 	type="text" name="name">
+					<label for="email" >Your email</label>
+					<input type="email" name="email" placeholder="yourname@mail.com">
+					<label for="message">Let me know anything you need.</label>
+					<input type="text" name="message">
+					<label for="file">Send me anything thru here.</label>
+					<input type="file" name="file">
+					<button type="submit">Send</button>					
+			
+				</form>
+			</div>
+		</div>
+		<div class="row">
 			<div class="column">
-				<div class="social-media social">
+				<div class="social">
 						<ul>
 							<li>
 								<a href="https://github.com/ematoledor" class="" target="_blank">
@@ -123,23 +141,6 @@
 							</li>
 						</ul>
 				</div>			
-			</div>
-		</div>
-		<div class="row">
-			<div class="column contact">
-				<form class="contact-form" action="https://getform.io/f/5e3c2458-1f2f-4383-b1fd-b70e1e906a13" method="POST" enctype="multipart/form-data">
-
-					<label for="name">How should I call you?</label>
-					<input 	type="text" name="name">
-					<label for="email">Your email</label>
-					<input type="email" name="email">
-					<label for="message">Let me know anything you need.</label>
-					<input type="text" name="message">
-					<label for="file">Send me anything thru here.</label>
-					<input type="file" name="file">
-					<button type="submit">Send</button>					
-			
-				</form>
 			</div>
 		</div>
 	</div>
