@@ -416,6 +416,11 @@ button:active {
 
 }
 
+.info {
+  display: flex;
+
+}
+
 .profile-img {
   margin: auto;
   width: auto;
