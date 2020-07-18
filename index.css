@@ -412,21 +412,16 @@ button:active {
 .social-icons {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
+
 }
 
 .profile-img {
-  display: block;
   margin: auto;
-  width: 300px;
+  width: auto;
   border-radius: 10px;
   height: 400px;
-  overflow: hidden;
   opacity: 1;
   border: 1px solid black;
-}
 
-.info {
-  text-align: center;
-  font-size: 1rem;
-  margin-top: 20px;
 }
