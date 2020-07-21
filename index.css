@@ -70,7 +70,6 @@ h1 {
 }
 
 /* nav bar */
-/* @import "/index.css"; */
 
 #headers {
   height: 100%;
@@ -131,6 +130,7 @@ h1 {
   margin-bottom: 60px;
   padding: 10px;
 }
+
 /* Subheader */
 
 .subheader {
